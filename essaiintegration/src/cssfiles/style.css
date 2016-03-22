@@ -1,0 +1,39 @@
+#pane{
+    -fx-background-image: url("1.jpg");
+    -fx-background-position: center center; 
+    -fx-background-repeat: stretch;
+}
+#grid{
+    -fx-background-image: url("back.jpg");    
+}
+#top{
+    -fx-background-image: url("hopital3.jpg");
+    -fx-background-position: center center; 
+    -fx-background-repeat: stretch;
+}
+#bottom{
+    -fx-background-image: url("footer.jpg");
+    -fx-background-repeat: stretch;
+}
+#rich{
+    -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+#rich-blue {
+    -fx-background-color:#47639E;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
